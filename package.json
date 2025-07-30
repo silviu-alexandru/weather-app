@@ -1,0 +1,37 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "A simple Weather app that shows weather forecast at a certain location",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/silviu-alexandru/weather-app.git"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "Silviu Alexandru",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/silviu-alexandru/weather-app/issues"
+  },
+  "homepage": "https://github.com/silviu-alexandru/weather-app#readme",
+  "devDependencies": {
+    "css-loader": "^7.1.2",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.3",
+    "source-map": "^0.7.6",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.100.2",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "dependencies": {
+    "webpack-merge": "^6.0.1"
+  }
+}
