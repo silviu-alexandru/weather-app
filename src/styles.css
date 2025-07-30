@@ -1,8 +1,66 @@
 body {
-    background-color: limegreen;
-    color: purple;
-    text-align: center;
-    font-family: sans-serif;
-    font-size: 24px;
-    font-weight: bold;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+#weather-app {
+  background: #fff;
+  max-width: 400px;
+  margin: 40px auto;
+  padding: 24px 32px;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  text-align: center;
+}
+
+#greeting {
+  font-size: 1.2rem;
+  margin-bottom: 24px;
+  color: #357ae8;
+  background: #eaf4ff;
+  padding: 16px 12px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(79,140,255,0.07);
+}
+
+input[type="text"], select {
+  width: 80%;
+  padding: 8px;
+  margin: 8px 0;
+  border-radius: 8px;
+  border: 1px solid #b3c6e7;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  background: #4f8cff;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #357ae8;
+}
+
+#weather-result {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #222;
+}
+
+#weather-result img {
+  margin-top: 12px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  max-width: 100%;
+  height: auto;
 }

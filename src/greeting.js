@@ -1,1 +1,1 @@
-export const greeting = "Hello World!";
+export const greeting = "Welcome, to the Weather App! Please enter a location to get the current weather conditions.";
